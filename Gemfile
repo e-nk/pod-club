@@ -14,6 +14,10 @@ gem "sqlite3", "~> 1.4"
 
 gem 'actioncable', '~> 7.0', '>= 7.0.4.3' 
 
+gem "devise", "~> 4.9"
+gem "simple_form", "~> 5.2"
+gem 'bootstrap', '~> 5.2', '>= 5.2.3'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
@@ -77,6 +81,4 @@ group :test do
   gem "webdrivers"
 end
 
-gem "devise", "~> 4.9"
-gem "simple_form", "~> 5.2"
-gem 'bootstrap', '~> 5.2', '>= 5.2.3'
+
