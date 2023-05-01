@@ -2,3 +2,4 @@
 //= link_tree ../builds
 //= link application.bootstrap.css
 //= link application.js
+//= link application.css
