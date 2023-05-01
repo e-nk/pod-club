@@ -12,6 +12,8 @@ module Podclub
     config.load_defaults 7.0
 
     config.assets.enabled = true
+    config.assets.precompile += %w( application.css )
+
 
     # Configuration for the application, engines, and railties goes here.
     #
